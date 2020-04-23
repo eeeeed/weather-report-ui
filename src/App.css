@@ -1,0 +1,75 @@
+.App {
+  
+}
+
+.errorText {
+  color: #FF0000;
+  margin: 0;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.textFieldColor {
+  color: 'red';
+}
+
+.textField {
+  margin: 0;
+  width: 100%;
+  color: #00BCD4;
+}
+
+.textField > div {
+  margin-top: 0;
+}
+
+.textField > div > input {
+  padding: 14px 0;
+}
+
+.textField > label {
+    transform: translate(0, 1.5rem) scale(1);
+    color: #AAAAAA;
+}
+
+.textField > label[data-shrink=true] {
+  transform: translate(0, -0.5rem) scale(0.75);
+  color: #00BCD4;
+}
+
+.baseDiv {
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.24);
+  padding-bottom: 5rem;
+}
+
+.progress {
+  color: #00BCD4;
+  text-align: center;
+  padding: 10rem 0;
+  border: 0;
+  padding-right: 0 !important;
+}
+
+.tableTitle {
+  /* padding: 4rem 0 0; */
+  color: #AAAAAA;
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.headline {
+  margin-bottom: 10rem;
+  padding-bottom: 1rem;
+  font-size: 30rem;
+  text-align: center;
+  color: #717171;
+}

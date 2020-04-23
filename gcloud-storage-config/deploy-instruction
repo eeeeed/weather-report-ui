@@ -1,0 +1,15 @@
+Deploy instruction:
+mkdir arcules-weather-app
+gsutil rsync -r gs://arcules-weather-report ./arcules-weather-app
+cd arcules-weather-app
+gcloud config set project my-project-test-273106
+gcloud app deploy
+
+
+Deploy result:
+descriptor:      [/home/eeeeed/arcules-weather-app/app.yaml]
+source:          [/home/eeeeed/arcules-weather-app]
+target project:  [my-project-test-273106]
+target service:  [default]
+target version:  [20200409t213405]
+target url:      [https://my-project-test-273106.wl.r.appspot.com]
